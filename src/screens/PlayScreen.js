@@ -94,6 +94,15 @@ export default class PlayScreen extends React.Component {
                             },
                         ]}>
                     </MediaSession>
+</div>
+
+            )
+
+        }
+
+    }
+
+}
                
             
         
