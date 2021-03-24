@@ -81,15 +81,7 @@ export default class PlayScreen extends React.Component {
                     <div>
                         {this.state.lyrics}
                     </div>
-                    <div className="footer">
-                        <h1 className="playlogo">MUSICDER</h1> <br />
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="playparagone" >An Open Source Project by Tuhin</p>
-                        </a><br />
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
-                            <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" /><br />
-                        </a>
-                    </div>
+                    
                     <MediaSession
                         title={this.state.song.song}
                         artist={this.state.song.singers}
