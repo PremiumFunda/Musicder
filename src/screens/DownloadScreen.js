@@ -59,7 +59,7 @@ export default class PlayScreen extends React.Component {
                         <a href={this.state.song.media_url} className="dldactivityb">128 Kbps</a><br />
                         <a href={this.state.qTwo} className="dldactivityb">320 Kbps</a><br />
 
-                    </div>
+                    
 
                     
                     </div>
